@@ -1,0 +1,13 @@
+@import ':sharedStyles';
+
+.container {
+  padding: 20px;
+  background-color: white;
+  overflow: visible;
+}
+
+.suggestions {
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+}

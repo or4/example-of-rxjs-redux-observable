@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react",
+      "lib": [ "es2015", "dom" ],
+      "baseUrl": "./",
+      "paths": {
+        ":components/*": ["src/components/*"],
+        ":scenes/*": ["src/scenes/*"],
+        ":utils": ["src/utils"],
+        ":types": ["src/global/types"],
+        ":constants": ["src/global/constants"],
+        ":api": ["src/api"],
+        ":actions": ["src/redux/actions"]
+      }
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}
